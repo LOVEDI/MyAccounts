@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/maind_rl"
+    android:background="@drawable/pic_bg_2"
+    tools:context=".activity.database.MainActivity">
+    <include
+        layout="@layout/top_title"
+        android:id="@+id/include_title">
+    </include>
+    <include
+        layout="@layout/bottom_box"
+        android:id="@+id/include_bottom">
+    </include>
+    <LinearLayout
+        android:layout_below="@id/include_title"
+        android:layout_above="@id/include_bottom"
+        android:orientation="vertical"
+        android:id="@+id/main_body_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+
+
+</RelativeLayout>

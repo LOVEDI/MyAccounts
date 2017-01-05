@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">印象账单</string>
+    <string name="welcome_info">欢迎您使用印象账本</string>
+    <string name="grid_payout_add">记录消费</string>
+    <string name="grid_payout_manage">查询消费</string>
+    <string name="grid_account_manage">账本管理</string>
+    <string name="grid_payout_sum">统计管理</string>
+    <string name="grid_payout_type">类别管理</string>
+    <string name="grid_payout_people">人员管理</string>
+    <string name="hint_user_name">人员名称</string>
+    <string name="title_add">新建</string>
+
+
+    <string name="button_text_save">保存</string>
+    <string name="button_text_yes">是</string>
+    <string name="button_text_no">否</string>
+    <string name="button_text_cancle">取消</string>
+
+
+    <string name="title_edit">修改</string>
+    <string name="title_user">人员管理(%s)</string>
+    <string name="title_category">类别管理(%s)</string>
+    <string name="title_category_add_or_edit">(%s)类别</string>
+    <string name="dialog_title_user">%s人员</string>
+    <string name="check_text_chinese_english_name">%s必须是中文英文和数字和_,不可以以_开头结尾</string>
+    <string name="check_text_user_exist">改用户已存在，请换个用户名称</string>
+    <string name="tips_add_fail">保存失败</string>
+    <string name="tips_add_success">保存成功</string>
+    <string name="tips_delete_fail">删除失败</string>
+    <string name="menu_text_edit">修改</string>
+    <string name="menu_text_delete">删除</string>
+    <string name="dialog_title_delete">删除提示</string>
+    <string name="dialog_title_massagge_delete">你确定要删除%s用户么？</string>
+    <string name="dialog_title_category_delete">你确定要删除%s类别么？</string>
+    <string name="hint_account_book_name">账本名称</string>
+    <string name="check_box_text_is_default">设置为默认账本</string>
+    <string name="title_accountBook">账本管理(%s) </string>
+    <string name="dialog_title_account_book">%s账本</string>
+    <string name="check_text_account_book_exist">该账本已存在，请换个名称</string>
+    <string name="textview_text_children_category">%s子类</string>
+    <string name="category_total">统计类别</string>
+    <string name="spinner_places_choose">--请选择--</string>
+
+    <string name="account_dialog_show_massage_false">不可以没有默认账本，请勾选</string>
+    <string name="textview_text_category_name">类别名称</string>
+    <string name="textview_text_category_parentid">所属分类</string>
+    <string name="hello_world">记账小能手</string>
+    <string name="bottom_text_select_account">选择账本</string>
+    <string name="payout_enter_amount_text">输入金额</string>
+    <string name="payout_select_category_text">选择类别</string>
+    <string name="payout_select_hint">请输入或选择消费类别</string>
+    <string name="payout_date_text_hint">选择日期</string>
+    <string name="payout_select_date_text">2016-13-21</string>
+    <string name="payout_calculat_text_hint">均分</string>
+    <string name="payout_select_people_text">选择消费人</string>
+    <string name="payout_select_people_text_hint">请选择消费人 默认为第一位</string>
+    <string name="payout_calculat_text_select">计算方式</string>
+    <string name="payout_select_people_bt_text">请输入消费新得和备注</string>
+    <string name="title_payout_add_or_edit">%s消费</string>
+    <string name="tips_delete_scesses">删除成功</string>
+    <string name="check_text_money">金额必须是数字 ，并且不能超过小数点后两位 ，可以是整数 以为或者两位</string>
+    <string name="check_text_category_is_null">类别不可以为空，请选择一个消费类别</string>
+    <string name="check_text_date_is_afterr">不可以添加将来的账单信息</string>
+    <string name="check_text_payout_user_is_null">请选择消费人</string>
+    <string name="check_text_payout_user">均分和借贷至少选择两个小费人</string>
+    <string name="check_text_payout_user2">个人小非请至少选择一个消费人</string>
+    <string name="button_text_back">返回</string>
+    <string name="textview_text_payout_amount">消费金额%s元</string>
+    <string name="dialog_message_accountBook_delete">账本删除后，相应的记录也将删除</string>
+    <string name="payout_type_is_not_null">类别不可以为空</string>
+    <string name="title_account_book">统计管理%s</string>
+    <string name="dialog_title_statistics_progress">统计</string>
+    <string name="dialog_waiting_statics_progress">正在统计中 请稍后</string>
+    <string name="payout_category_statistics">消费统计类别</string>
+    <string name="export_data_fail">导出失败</string>
+    <string name="button_text_select_account_book">选择账本</string>
+    <string name="dialog_message_backup_sesscess">数据备份成功</string>
+    <string name="dialog_message_backup_false">数据备份失败</string>
+    <string name="dialog_message_restore_sesscess">还原成功</string>
+    <string name="dialog_message_restore_file">还原失败</string>
+
+
+</resources>

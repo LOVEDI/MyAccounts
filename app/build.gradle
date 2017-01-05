@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        applicationId "com.beicai.zhaodi.accountbook"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    signingConfigs{
+        release{
+            keyAlias "readily"
+            keyPassword "000000"
+            storeFile file('F:\\readilys.keystore.jks');
+            storePassword "000000"
+        }
+    }
+    buildTypes {
+        release {
+            //是否开启代码混淆
+            minifyEnabled true
+            //此处是系统默认的混淆路径
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //指定混淆配置文件的路径
+            proguardFiles 'E:\\zhaodi\\Android_gaoji\\MyAccount\\app\\proguard-rules.pro'
+            //使用上面配置的签名文件
+            signingConfig signingConfigs.release
+            //不显示DiaLog
+            buildConfigField "boolean" ,"LOG_DEBUG" ,"false";
+            //移除无用资源文件
+            shrinkResources true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/jxl.jar')
+    compile files('libs/achartengine-1.2.0.jar')
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@color/green"
+    android:layout_height="69dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:id="@+id/bottom_bar_rl"
+        android:layout_height="68dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/bottom_icom_iv"
+        android:src="@drawable/baobao"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bottom_icom_iv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/welcome_info"
+            android:textColor="@color/write"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/main_btn"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/bottom_bar_rl"
+        android:id="@+id/bottom_list_box"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ListView
+            style="@style/ListViewStyle"
+            android:background="@drawable/bg_main"
+            android:id="@+id/slide_list_lv"
+            ></ListView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
